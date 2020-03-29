@@ -10,4 +10,22 @@ const routes: Routes = [];
 })
 export class AppRoutingModule {
   
+  msg: string = 'Witaj Aleksandro';
+  var: number = 1;
+  
+
+
+  /**
+   *
+   */
+  constructor() {
+
+  
+      console.log(this.msg);
+   
+
+  }
+
+
+
  }
